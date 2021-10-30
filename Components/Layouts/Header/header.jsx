@@ -7,7 +7,7 @@ const Header = () => {
         <HeaderCss>
             <div className="logo">로고</div>
             <button>버튼</button>
-            {Now ? <input type="text" /> : <input type="text" placeholder={`${Now}`}/>}
+            <input type="text" />
         </HeaderCss>
     )
 }
